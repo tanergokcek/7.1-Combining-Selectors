@@ -1,0 +1,19 @@
+/* Write your code here: */
+h1 ,h2 {                            /* .class, #id falan da virgülle ayrılabilir.*/
+    color: blueviolet;
+}
+
+.box > .p{                          /*  2.  .p de olabilir */
+    color: firebrick;
+}
+
+.box li {
+    color: blue;
+}
+li.done{                            /* !!!!!!!!!! */
+    color: seagreen;
+}
+
+ul p.done{                         /* ul > p.done*     böylede yapilir. */
+    font-size: 0.5rem;
+}
